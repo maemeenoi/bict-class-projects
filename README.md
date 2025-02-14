@@ -1,6 +1,6 @@
-# BICT Class Projects 🏫💻
+# BCIT Class Projects 🏫💻
 
-A collection of projects from my BICT coursework, covering **JavaScript, React, Node.js, and database management**.
+A collection of projects from my BCIT coursework, covering **JavaScript, React, Node.js, database management, and web applications**.
 
 ---
 
@@ -85,6 +85,30 @@ cd android-game-eyeball-maze
 1. Open the project in **Android Studio**.
 2. Connect an **Android Emulator** or a physical device.
 3. Click **Run** to start the game.
+
+---
+
+### **Project 4: Mana Prostate Support**
+
+📌 **Description:** A web-based information hub designed to provide accessible, stage-specific resources about prostate health for New Zealand men and their families.
+
+📌 **Live Version:**  
+🔗 [Mana Prostate Support](https://jas3116.pythonanywhere.com)
+
+📌 **Features:**  
+✅ Provides verified information on prostate cancer stages, symptoms, and treatments.  
+✅ Support group locator for connecting with local communities.  
+✅ Accessibility-focused UI with text-to-speech and readability enhancements.
+
+📌 **Technologies Used:**
+
+- **Django** (Backend Framework)
+- **Python** (Server-side scripting)
+- **HTML, CSS, JavaScript** (Frontend Development)
+- **Bootstrap** (UI Framework)
+- **PythonAnywhere** (Deployment Platform)
+
+---
 
 ## 📩 Contact
 
