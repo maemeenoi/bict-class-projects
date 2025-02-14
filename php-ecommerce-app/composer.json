@@ -1,0 +1,13 @@
+{
+    "name": "agora/v3",
+    "description": "Agora V3 E-Commerce Platform",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Agora\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}

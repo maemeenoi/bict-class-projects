@@ -1,0 +1,29 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Set the base directory
+RewriteBase /Agora_V.3/
+
+# Allow direct access to test files in root
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(test_.*\.php|.*_test\.php)$ - [L]
+RewriteRule ^uploads/(.*)$ public/uploads/$1 [L]
+
+
+# If the request is for a real file or directory, serve it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Remove public/ from URL
+RewriteRule ^public/(.*)$ $1 [L]
+
+# Allow direct access to css, js, and image files
+RewriteCond %{REQUEST_URI} !\.(css|js|jpg|jpeg|png|gif|ico|svg)$
+
+# Send all other requests to index.php
+RewriteRule ^(.*)$ public/index.php [QSA,L]
+
+# PHP error reporting
+php_flag display_errors on
+php_value error_reporting E_ALL
+
