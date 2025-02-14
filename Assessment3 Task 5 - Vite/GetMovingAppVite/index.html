@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#317EFB" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Moving App</title>
+    <link
+      rel="manifest"
+      href="manifest.webmanifest"
+      crossorigin="use-credentials"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="src/assets/images/maskable_icon_x48.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="src/assets/images/maskable_icon_x192.png"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/service-worker.js")
+          .then((registration) => {
+            console.log(
+              "Service Worker registered with scope:",
+              registration.scope
+            )
+          })
+          .catch((error) => {
+            console.error("Service Worker registration failed:", error)
+          })
+      }
+    </script>
+  </body>
+</html>
