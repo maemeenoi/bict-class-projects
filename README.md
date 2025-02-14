@@ -96,7 +96,7 @@ cd android-game-eyeball-maze
 🔗 [Mana Prostate Support](https://jas3116.pythonanywhere.com)
 
 📌 **Features:**  
-✅ Provides information on prostate cancer stages, symptoms, and treatments.  
+✅ Provides verified information on prostate cancer stages, symptoms, and treatments.  
 ✅ Support group locator for connecting with local communities.  
 ✅ Accessibility-focused UI with text-to-speech and readability enhancements.
 
@@ -137,6 +137,28 @@ cd php-ecommerce-app
 3. Start **Apache and MySQL** in XAMPP.
 4. Import the provided **SQL database** into MySQL.
 5. Open `http://localhost/php-ecommerce-app` in your browser.
+
+---
+
+### **Project 6: Fitness Challenge App (In-House Project)**
+
+📌 **Description:** A **goal-tracking web application** designed to **track fitness goals and determine the winner** based on progress. It helps teams or individuals monitor their achievements and rewards top performers.
+
+📌 **Live Version:**  
+🔗 [Fitness Challenge App](https://fitnesschallenge-inhouse.vercel.app/)
+
+📌 **Features:**  
+✅ Set personal fitness goals.  
+✅ Track progress and compare with others.  
+✅ Automated system to determine award winners.  
+✅ Real-time data updates with Firebase.
+
+📌 **Technologies Used:**
+
+- **Next.js** (Full-Stack Framework for React)
+- **React.js** (Frontend UI)
+- **Firebase** (Database & Authentication)
+- **Vercel** (Deployment Platform)
 
 ---
 
