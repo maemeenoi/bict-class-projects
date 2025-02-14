@@ -89,5 +89,5 @@ cd android-game-eyeball-maze
 ## 📩 Contact
 
 If you have any questions or feedback, feel free to reach out:  
-📧 Email: [YourEmail@example.com](mailto:jade.sainui@gmail.com)  
+📧 Email: [jade.sainui@gmail.com](mailto:jade.sainui@gmail.com)  
 🔗 GitHub: [github.com/maemeenoi](https://github.com/maemeenoi)
