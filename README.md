@@ -96,7 +96,7 @@ cd android-game-eyeball-maze
 🔗 [Mana Prostate Support](https://jas3116.pythonanywhere.com)
 
 📌 **Features:**  
-✅ Provides verified information on prostate cancer stages, symptoms, and treatments.  
+✅ Provides information on prostate cancer stages, symptoms, and treatments.  
 ✅ Support group locator for connecting with local communities.  
 ✅ Accessibility-focused UI with text-to-speech and readability enhancements.
 
@@ -107,6 +107,36 @@ cd android-game-eyeball-maze
 - **HTML, CSS, JavaScript** (Frontend Development)
 - **Bootstrap** (UI Framework)
 - **PythonAnywhere** (Deployment Platform)
+
+---
+
+### **Project 5: E-Commerce Portal (BCDE224)**
+
+📌 **Description:** A dynamic **E-Commerce Portal** developed as part of the **BCDE224 Best Programming Practices** coursework. The platform provides a **user-friendly shopping experience**, integrating product management, cart functionality, and secure transactions.
+
+📌 **Features:**  
+✅ User authentication and secure login system.  
+✅ Product listing and category filtering.  
+✅ Admin dashboard for product and order management.
+
+📌 **Technologies Used:**
+
+- **PHP** (Backend Server-Side Logic)
+- **MySQL** (Database Management)
+- **HTML, CSS, JavaScript** (Frontend Development)
+- **Bootstrap** (Responsive UI Framework)
+
+📌 **Setup Instructions:**
+
+```sh
+cd php-ecommerce-app
+```
+
+1. Install a **local server** like XAMPP or MAMP.
+2. Move the project folder to the **htdocs** directory (if using XAMPP).
+3. Start **Apache and MySQL** in XAMPP.
+4. Import the provided **SQL database** into MySQL.
+5. Open `http://localhost/php-ecommerce-app` in your browser.
 
 ---
 
